@@ -37,6 +37,9 @@ $ python may_dap_tiktok.py
 * *Vì TikTok không dùng thẻ HTML thông thường để hiển thị video. Thay vào đó, dữ liệu video được nhúng sẵn trong một thẻ <script> dạng JSON. Do đó, chỉ cần dùng re (regex) để trích xuất khối JSON và json.loads() để xử lý là đủ. Chính vì vậy nên mình nghĩ rằng sử dụng bs4 là không cần thiết và sẽ làm chậm chương trình.*
 
 # Credit
+
+<img src="https://raw.githubusercontent.com/k4ahr/dotfilesV2/refs/heads/main/.config/neofetch/osage.png" align="right" width="200px">
+
 * Dữ liệu HTML công khai từ [TikTok](https://www.tiktok.com)
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp): Thư viện mã nguồn mở để tải video trên các nền tảng
 * [Art fumo cirno ASCII](https://emojicombos.com/cirno-fumo-ascii)
